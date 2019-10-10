@@ -73,7 +73,7 @@ resource "aws_lambda_function" "drain" {
   }
 
   environment {
-    variables {
+    variables = {
       NOMAD_ADDR        = var.nomad_address
       USE_NOMAD_TOKEN   = true
       VAULT_ADDR        = var.vault_address

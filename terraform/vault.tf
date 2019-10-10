@@ -1,7 +1,7 @@
 data "template_file" "nomad_lambda_role" {
   template = file("${path.module}/vault/nomad_role.json")
 
-  vars {
+  vars = {
     lambda_policy_name = "${nomad_acl_policy.lambda.name}"
   }
 }
@@ -14,7 +14,7 @@ resource "vault_generic_secret" "nomad_lambda_role" {
 data "template_file" "vault_policy" {
   template = file("${path.module}/vault/policy.hcl")
 
-  vars {
+  vars = {
     nomad_path = var.nomad_path
     nomad_role = var.nomad_role
   }
