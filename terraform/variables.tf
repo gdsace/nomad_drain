@@ -8,7 +8,7 @@ variable "vpc_id" {
 
 variable "vpc_subnets" {
   description = "VPC Subnet IDs to run the lambda in"
-  type        = "list"
+  type        = list(string)
 }
 
 variable "nomad_address" {
@@ -101,6 +101,7 @@ variable "notification_metadata" {
 
 variable "tags" {
   description = "Map of tags for resources"
+  type        = map(string)
 
   default {
     Terraform = "true"

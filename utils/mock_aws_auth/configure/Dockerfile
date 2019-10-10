@@ -3,7 +3,7 @@ FROM python:3.7-stretch
 WORKDIR /app
 RUN pip install awscli
 
-ARG VAULT_VERSION=1.0.1
+ARG VAULT_VERSION=1.1.3
 RUN set -eu \
     && apt-get update \
     && apt-get install -y unzip curl \
