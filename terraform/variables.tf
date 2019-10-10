@@ -103,7 +103,7 @@ variable "tags" {
   description = "Map of tags for resources"
   type        = map(string)
 
-  default {
+  default = {
     Terraform = "true"
   }
 }
