@@ -57,7 +57,7 @@ resource "aws_lambda_function" "drain" {
   ]
 
   filename         = local.lambda_payload_path
-  source_code_hash = base64sha256(file(local.lambda_payload_path))
+  source_code_hash = filebase64sha256(local.lambda_payload_path)
 
   function_name = var.lambda_name
   role          = aws_iam_role.lambda.arn
