@@ -59,7 +59,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.241.112",
@@ -121,7 +121,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.242.91",
@@ -183,7 +183,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.241.138",
@@ -245,7 +245,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.240.115",
@@ -307,7 +307,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.240.182",
@@ -369,7 +369,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.241.211",
@@ -431,7 +431,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.240.158",
@@ -493,7 +493,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.241.201",
@@ -555,7 +555,7 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   },
   {
     "Address": "10.161.242.143",
@@ -617,6 +617,6 @@
     "SchedulingEligibility": "eligible",
     "Status": "ready",
     "StatusDescription": "",
-    "Version": "0.8.6"
+    "Version": "0.9.3"
   }
 ]
